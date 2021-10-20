@@ -1,4 +1,4 @@
-package com.applicationRelatedFunctionalities;
+package com.applicationRelatedFunctionalities.pageObjects;
 
 import org.openqa.selenium.By;
 

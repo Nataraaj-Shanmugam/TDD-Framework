@@ -15,14 +15,8 @@ public class ReporterUtilities {
 		ThreadLocalFunctionalities.extentReporter.set(extent.createTest(scenarioName));
 	}
 
-	public void createReporterFile(boolean rerunExecution){
-		String reportName;
-		if(rerunExecution)
-			reportName = "FailedRerunExecutionReport";
-		else
-			reportName = "PrimaryExecutionReport";
-
-		extent = reportManager(GenericKeywords.reportPath+"\\"+reportName+".html");
+	public void createReporterFile(){
+		extent = reportManager(GenericKeywords.reportPath+"\\PrimaryExecutionReport.html");
 	}
 
 	public void writeDataToReport() {

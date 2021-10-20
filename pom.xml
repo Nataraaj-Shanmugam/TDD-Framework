@@ -5,23 +5,23 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>framework</groupId>
-	<artifactId>DataDriven_KeyworkDrivenAndTestNG</artifactId>
+	<artifactId>TestDriven_TestNG</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>DataDriven_KeyworkDrivenAndTestNG</name>
+	<name>TestDriven_TestNG</name>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.surfire>2.22.0</maven.surfire>
 		<testNG>7.3.0</testNG>
-		<selenium>3.141.59</selenium>
-		<webdrivermanager>4.2.0</webdrivermanager>
+		<!-- <selenium>3.141.59</selenium> -->
+		<selenium>4.0.0</selenium>
+		<webdrivermanager>5.0.3</webdrivermanager>
 		<extentReport>5.0.3</extentReport>
 		<commonlang3>3.11</commonlang3>
 		<apache.poi>4.1.2</apache.poi>
 		<maven.slf4j>1.7.30</maven.slf4j>
 		<maven.exec>1.6.0</maven.exec>
-		<parallelExectionThreadCount>3</parallelExectionThreadCount>
 	</properties>
 	<build>
 		<plugins>
@@ -38,12 +38,6 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>${maven.surfire}</version>
-				<!-- <configuration>
-					<parallel>all</parallel>
-					<threadCountMethods>${parallelExectionThreadCount}</threadCountMethods>
-					<perCoreThreadCount>false</perCoreThreadCount>
-					<useUnlimitedThreads>true</useUnlimitedThreads>
-				</configuration> -->
 			</plugin>
 		</plugins>
 	</build>

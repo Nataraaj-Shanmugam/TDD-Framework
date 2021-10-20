@@ -1,7 +1,6 @@
-package com.applicationRelatedFunctionalities;
+package com.applicationRelatedFunctionalities.pages;
 
-import static org.testng.Assert.assertThrows;
-
+import com.applicationRelatedFunctionalities.pageObjects.ApplicationObjects;
 import com.genericKeywords.GenericKeywords;
 import com.genericKeywords.ProjectCustomException;
 
