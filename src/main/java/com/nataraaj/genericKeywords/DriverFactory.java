@@ -1,11 +1,11 @@
-package com.genericKeywords;
+package com.nataraaj.genericKeywords;
 
 import org.openqa.selenium.WebDriver;
 
 public class DriverFactory {
 
     private static final ThreadLocal<WebDriver> driverThread = new ThreadLocal<WebDriver>();
-    
+
     public static WebDriver getDriver() {
         return driverThread.get();
     }

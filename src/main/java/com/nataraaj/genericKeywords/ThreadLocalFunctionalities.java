@@ -1,4 +1,4 @@
-package com.genericKeywords;
+package com.nataraaj.genericKeywords;
 
 import java.util.HashMap;
 import java.util.LinkedList;

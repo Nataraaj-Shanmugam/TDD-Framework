@@ -1,4 +1,4 @@
-package com.utilities;
+package com.nataraaj.utilities;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -11,7 +11,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import com.genericKeywords.UIGenericFunction;
+import com.nataraaj.genericKeywords.UIGenericFunction;
 import testExecutionEngine.TestExecutionEngine;
 
 public class ExcelUtilities {

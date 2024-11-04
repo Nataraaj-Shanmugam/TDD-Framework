@@ -1,8 +1,8 @@
-package com.utilities;
+package com.nataraaj.utilities;
 
-import com.enums.CALENDAR_ENTITY;
-import com.enums.CALENDAR_OPERATION;
-import com.genericKeywords.NonUIGenericFunction;
+import com.nataraaj.enums.CALENDAR_ENTITY;
+import com.nataraaj.enums.CALENDAR_OPERATION;
+import com.nataraaj.genericKeywords.NonUIGenericFunction;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

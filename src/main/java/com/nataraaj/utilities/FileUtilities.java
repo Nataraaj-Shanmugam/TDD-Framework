@@ -1,10 +1,10 @@
-package com.utilities;
+package com.nataraaj.utilities;
 
 import java.io.File;
 
 import org.apache.commons.io.FileUtils;
 
-import com.genericKeywords.UIGenericFunction;
+import com.nataraaj.genericKeywords.UIGenericFunction;
 
 //todo need to refactor
 public class FileUtilities extends UIGenericFunction {

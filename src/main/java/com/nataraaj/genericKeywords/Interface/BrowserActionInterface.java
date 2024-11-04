@@ -1,4 +1,4 @@
-package com.genericKeywords.Interface;
+package com.nataraaj.genericKeywords.Interface;
 
 public interface BrowserActionInterface {
 

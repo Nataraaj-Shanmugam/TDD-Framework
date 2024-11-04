@@ -1,4 +1,4 @@
-package com.enums;
+package com.nataraaj.enums;
 
 public enum CALENDAR_ENTITY {
 

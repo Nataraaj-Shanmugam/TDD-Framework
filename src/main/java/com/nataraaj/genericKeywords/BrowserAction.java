@@ -1,6 +1,6 @@
-package com.genericKeywords;
+package com.nataraaj.genericKeywords;
 
-import com.genericKeywords.Interface.BrowserActionInterface;
+import com.nataraaj.genericKeywords.Interface.BrowserActionInterface;
 import io.qameta.allure.Allure;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;

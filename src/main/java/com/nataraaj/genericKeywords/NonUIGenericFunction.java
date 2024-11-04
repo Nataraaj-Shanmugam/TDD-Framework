@@ -1,6 +1,6 @@
-package com.genericKeywords;
+package com.nataraaj.genericKeywords;
 
-import com.genericKeywords.Interface.NonUIGenericFunctionInterface;
+import com.nataraaj.genericKeywords.Interface.NonUIGenericFunctionInterface;
 
 public class NonUIGenericFunction implements NonUIGenericFunctionInterface {
 

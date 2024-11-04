@@ -2,10 +2,9 @@ package testExecutionEngine;
 
 import java.util.*;
 
-import com.genericKeywords.UIGenericFunction;
-import com.utilities.PropertyFileUtility;
+import com.nataraaj.utilities.PropertyFileUtility;
 
-public class TestExecutionEngine extends UIGenericFunction {
+public class TestExecutionEngine {
     private static LinkedHashMap<String, LinkedList<String>> executionScenariosKeywordsList;
     private static HashMap<String, HashMap<String, String>> masterTestData;
     public static PropertyFileUtility propFile;

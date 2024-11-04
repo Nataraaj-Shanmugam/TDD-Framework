@@ -1,4 +1,4 @@
-package com.genericKeywords;
+package com.nataraaj.genericKeywords;
 
 import java.io.File;
 import java.io.IOException;
@@ -6,8 +6,8 @@ import java.time.Duration;
 import java.util.Calendar;
 import java.util.List;
 
-import com.genericKeywords.Interface.UIGenericFunctionInterface;
-import com.utilities.PropertyFileUtility;
+import com.nataraaj.genericKeywords.Interface.UIGenericFunctionInterface;
+import com.nataraaj.utilities.PropertyFileUtility;
 import io.qameta.allure.Allure;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.commons.lang3.math.NumberUtils;
